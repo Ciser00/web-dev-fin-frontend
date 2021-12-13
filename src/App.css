@@ -1,0 +1,191 @@
+.background{
+  background-color: rgb(180,180,180);
+}
+.BackgroundLogin{
+  background-image: url("https://wallpapercave.com/wp/wp5343070.jpg");
+  padding-bottom: 200px;
+}
+
+.CreepyCard{
+  display: flex;
+  flex-direction: row;
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+  margin-bottom: 50px;
+
+}
+.CreepyCardWrapper{
+  padding-top: 100px;
+
+}
+
+.Form{
+  padding-top: 100px;
+}
+.FormLogin{
+
+}
+.FormText{
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.FormButton{
+  margin-top: 50px;
+  margin-left: 660px
+}
+.Form form{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.Form input{
+  margin-bottom: 30px;
+  padding: 10px 5px;
+  margin-top: 5px;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration:none;
+  color: white;
+}
+.HeaderWrapper{
+  border-bottom: 1px solid black;
+  padding: 5px ;
+  background-color:	rgb(14, 12, 12);
+}
+.HeaderWrapperNoBotPadding{
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.Header nav a{
+  color: white;
+  font-size: 14px;
+  margin: 0px 5px;
+  padding: 0px 5px;
+  text-decoration: none;
+}
+.Header nav a:last-child {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+h2{
+  font-size: 35px;
+  margin-top: 0px;
+}
+h3{
+  font-size: 30px;
+  text-align: center;
+}
+.Image{
+  max-width: 500px;
+  max-height: 500px
+}
+.ImageWrapper{
+  display: flex;
+  justify-content: center;
+}
+.Logo{
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px 5px;
+  padding: 0px 5px;
+}
+.NameImageWrapper{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+.OpeningBlurb{
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 0px;
+  padding-top: 100px;
+  font-size: 40px;
+  margin-top: 0px;
+}
+.OpeningWrapper{
+  background-image:url(https://wallpapercave.com/wp/wp5343070.jpg);
+    padding-bottom: 200px;
+}
+.PageWrapper{
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgb(200,200,200);
+}
+.PageWrapperLogin{
+
+}
+.PostPageWrapper{
+  margin: 0 auto;
+  max-width: 1140px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 25px;
+  color: white
+
+}
+.RandomLink{
+  display: grid;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  border: 1px solid white;
+  font-weight: bold;
+  margin: 0px 5px;
+  padding: 0px 5px;
+  text-decoration: none;
+}
+.RandomLinkWrapper{
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.StoryWrapper{
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.StoryBox{
+min-width: 800px;
+min-height: 200px;
+}
+.SinglePostWrapper{
+  margin: 0 auto;
+  min-height: 800px;
+  background-color: rgb(200,200,200);
+}
+.SinglePostWrapper {
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 100px
+}
+.SinglePostWrapper h3{
+  font-size: 50px;
+}
+.SigngleImage{
+  max-width: 800px;
+  max-height: 800px
+}
+.SingleImageWrapper{
+  display: flex;
+  justify-content: center;
+
+}
+.SingleImageTitle{
+
+
+}
