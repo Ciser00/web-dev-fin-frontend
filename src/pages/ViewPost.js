@@ -3,7 +3,7 @@ import axios from "axios"
 import { useParams } from "react-router-dom";
 import CreepyCardSolo from '../components/CreepyCardSolo';
 
-const url = `http://localhost:4000`
+const url = 'https://safe-garden-55854.herokuapp.com'
 function ViewPost(){
   const [singleCreepyPost, setSingleCreepyPost] = useState({});
   let { id } = useParams();
@@ -17,11 +17,10 @@ function ViewPost(){
       console.log(error);
     });
   }, [id]);
-  console.log(singleCreepyPost)
   return(
     <div>
       <CreepyCardSolo singleCreepyPost={singleCreepyPost}/>
-    </div>
+          </div>
   )
 }
 

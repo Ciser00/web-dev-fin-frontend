@@ -17,7 +17,7 @@ function CreateUser({setLoggedIn, setUserInformation}){
           email: user.email,
           displayName: user.displayName,
           uid: user.uid,
-          accessToken: user.accessToken
+          accessToken: user.accessToken,
         });
         updateProfile(auth.currentUser, {
           displayName
@@ -39,7 +39,7 @@ function CreateUser({setLoggedIn, setUserInformation}){
 );
   return (
     <div >
-    
+
       <CreateUserForm signUpUser={signUpUser}/>
     </div>
 );

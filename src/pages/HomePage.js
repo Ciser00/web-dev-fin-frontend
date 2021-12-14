@@ -7,7 +7,7 @@ import RandomPostButton from '../components/RandomPostButton';
 
 
 
-const url = `http://localhost:4000`;
+const url = process.env.REACT_APP_BACKEND_URL || `http://localhost:4000`;
 function HomePage(postIdArray, setPostIdArray){
   const [creepyPost, setCreepyPost] = useState();
   useEffect(() => {

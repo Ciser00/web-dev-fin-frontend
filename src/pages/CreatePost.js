@@ -5,7 +5,7 @@ import{ useNavigate } from 'react-router-dom';
 import CreatePostForm from "../components/CreatePostForm";
 import RandomImage from "../components/RandomImage";
 import Data from "../json/Data.json";
-const baseUrl = `http://localhost:4000`
+const baseUrl = process.env.REACT_APP_BACKEND_URL || `http://localhost:4000`;
 function CreatePost({userInformation, randomNum, setRandomNum }){
   const navigate = useNavigate();
   function submitPost(e){
